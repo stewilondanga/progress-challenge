@@ -29,6 +29,14 @@ body .container {
   transform: translate(-50%, -50%);
 }
 
+body .container details {
+  width: 33vw;
+  border: 1px solid var(--black);
+  margin-bottom: 5%;
+  padding: 5%;
+  background: linear-gradient(to bottom, var(--gradient-start), var(--gradient-end));
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -136,13 +144,6 @@ body .container {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
-}
-body .container details {
-  width: 33vw;
-  border: 1px solid var(--black);
-  margin-bottom: 5%;
-  padding: 5%;
-  background: linear-gradient(to bottom, var(--gradient-start), var(--gradient-end));
 }
 body .container details summary {
   color: var(--summary);
