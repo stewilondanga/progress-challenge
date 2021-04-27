@@ -37,6 +37,14 @@ body .container details {
   background: linear-gradient(to bottom, var(--gradient-start), var(--gradient-end));
 }
 
+body .container details summary {
+  color: var(--summary);
+  text-transform: uppercase;
+  font-family: "Telefon", Sans-Serif;
+  cursor: pointer;
+  outline: none;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -144,13 +152,6 @@ body .container details {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
-}
-body .container details summary {
-  color: var(--summary);
-  text-transform: uppercase;
-  font-family: "Telefon", Sans-Serif;
-  cursor: pointer;
-  outline: none;
 }
 body .container details p {
   margin: 0;
