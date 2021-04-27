@@ -11,6 +11,17 @@ body {
   font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
 }
 
+body h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--title);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -120,17 +131,6 @@ body {
   transition-delay: 0.4s;
 }
 
-
-body h1 {
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--title);
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  width: 100%;
-  transform: translate(-50%, -50%);
-}
 body .container {
   position: absolute;
   top: 50%;
