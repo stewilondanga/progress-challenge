@@ -164,11 +164,11 @@ body .container details[open] p {
   transition-delay: 0.3s;
 }
 
-/*
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
 }
 
+/*
 @keyframes progress {
   0% {
     width: 0;
