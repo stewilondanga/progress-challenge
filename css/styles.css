@@ -63,6 +63,10 @@ body .container details p::before {
   background-color: var(--summary);
 }
 
+body .container details[open] p {
+  animation: sweep 0.7s ease-in-out;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -170,9 +174,6 @@ body .container details p::before {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
-}
-body .container details[open] p {
-  animation: sweep 0.7s ease-in-out;
 }
 body .container details[open] p::before {
   animation: progress 0.7s forwards;
