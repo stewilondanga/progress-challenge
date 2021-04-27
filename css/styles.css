@@ -168,26 +168,30 @@ body .container details[open] p {
   transition-delay: 0.4s;
 }
 
-/*
 @keyframes progress {
   0% {
     width: 0;
   }
+
   100% {
     width: 100%;
   }
 }
+
+/*
 @keyframes sweep {
   0% {
     opacity: 0;
     margin-left: -15px;
   }
+
   100% {
     opacity: 1;
     margin-left: 0px;
   }
 }
 
+/*
 #contact h1 {
   font-family: helvetica;
   font-weight: normal;
