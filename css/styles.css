@@ -80,7 +80,6 @@ body .container details[open] p {
   margin-right: 0px;
 }
 
-/*
 .share-button {
   cursor: pointer;
   display: inline-block;
@@ -96,6 +95,7 @@ body .container details[open] p {
   perspective: 200px;
 }
 
+/*
 .share-button__back {
   background-color: #368b8b;
   padding: 5px;
