@@ -190,7 +190,6 @@ body .container details[open] p {
   }
 }
 
-/*
 #contact h1 {
   font-family: helvetica;
   font-weight: normal;
@@ -202,6 +201,7 @@ body .container details[open] p {
   margin: 0 auto;
 }
 
+/*
 .cal {
   display: inline-block;
   background: #ffe;
