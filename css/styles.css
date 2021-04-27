@@ -1,4 +1,4 @@
-body {
+/*body {
   text-align: center;
   font-family: courier;
   background-image: url("../assets/image.jpeg");
@@ -105,6 +105,90 @@ body {
 
 .share-button:hover .share__link:nth-of-type(4) {
   transition-delay: 0.4s;
+}
+
+:root {
+  --background: #191919;
+  --title: #fcd000;
+  --summary: #47cf73;
+  --gradient-start: rgba(0,0,0,0.75);
+  --gradient-end: rgba(0,0,0,0.25);
+}
+
+body {
+  background-color: var(--background);
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+body h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--title);
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+body .container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+body .container details {
+  width: 33vw;
+  border: 1px solid var(--black);
+  margin-bottom: 5%;
+  padding: 5%;
+  background: linear-gradient(to bottom, var(--gradient-start), var(--gradient-end));
+}
+body .container details summary {
+  color: var(--summary);
+  text-transform: uppercase;
+  font-family: "Telefon", Sans-Serif;
+  cursor: pointer;
+  outline: none;
+}
+body .container details p {
+  margin: 0;
+  color: white;
+  position: relative;
+  padding-top: 10%;
+}
+body .container details p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0;
+  margin-top: 8px;
+  height: 2%;
+  background-color: var(--summary);
+}
+body .container details[open] p {
+  animation: sweep 0.7s ease-in-out;
+}
+body .container details[open] p::before {
+  animation: progress 0.7s forwards;
+}
+
+@keyframes progress {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-left: -15px;
+  }
+  100% {
+    opacity: 1;
+    margin-left: 0px;
+  }
 }
 
 #contact h1 {
