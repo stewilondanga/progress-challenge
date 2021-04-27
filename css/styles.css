@@ -222,12 +222,12 @@ body .container details[open] p {
   font-size: 15px;
 }
 
-/*
 .cal th {
   color: #aaa;
   line-height: 200%;
 }
 
+/*
 .cal th:first-child {
   color: #f00;
 }
