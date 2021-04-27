@@ -6,6 +6,11 @@
   --gradient-end: rgba(0, 0, 0, 0.25);
 }
 
+body {
+  background-color: var(--background);
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+}
+
 /*body {
   text-align: center;
   font-family: courier;
@@ -116,10 +121,6 @@
 }
 
 
-body {
-  background-color: var(--background);
-  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
-}
 body h1 {
   text-align: center;
   text-transform: uppercase;
